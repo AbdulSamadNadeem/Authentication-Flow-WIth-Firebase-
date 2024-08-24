@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main{
+    margin: 150px auto;
+    width: 773px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    width: 356.5px;
+    height: 500px;
+}
+.logo img{
+    width: 356.5px;
+    height: 500px;
+}
+
+.form{
+    width: 416.5px;
+    height: 500px;
+    background-color: #fff;
+}
+.inputs{
+    margin: 20px auto;
+    width: 320px;
+    height: 470px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+.inputs p{
+    margin-top: 5px;
+    font-weight: lighter;
+    color: #636e72;
+}
+.inputs input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #8692A6;
+    font-size: 20px;
+    
+}
+
+.one{
+    margin-top: 20px;
+}
+.first{
+    margin-left: -220px;
+    font-weight: lighter;
+    color: #636e72;
+}
+.second{
+    margin-left: -260px;
+    font-weight: lighter;
+    color: #636e72;
+}
+.third{
+    margin-left: -220px;
+    font-weight: lighter;
+    color:#636e72;
+}
+.last{
+    margin-left: -200px;
+    font-weight: lighter;
+    color:#636e72
+}
+.btn{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #2C73EB;
+    color: #fff;
+    outline: none;
+    border: 1px solid #8692A6;
+    font-family: "Inter", sans-serif;
+    font-weight: lighter;
+    border-radius: 6px;
+}
+.Suggest{
+    font: 10px;
+}
+.Suggest > a{
+    text-decoration: none;
+    color: #2C73EB;
+}
+a:visited{
+    color: #2C73EB;
+    text-decoration: none;
+}
+.loader{
+    margin: 350px auto;
+}
+.loader2{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -270px;
+}
+.loader {
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #2C73EB;
+    --_m: 
+      conic-gradient(#0000 10%,#000),
+      linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    -webkit-mask-composite: source-out;
+            mask-composite: subtract;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {to{transform: rotate(1turn)}}
+.loader2 {
+    color: #2C73EB;
+    width: fit-content;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-bottom: 8px;
+    background: linear-gradient(to right , #2C73EB , #2C73EB) 0 100%/0% 3px no-repeat;
+    animation: l2 2s linear infinite;
+  }
+  .loader2:before {
+    content:"Setting Up Your Data..."
+  }
+  @keyframes l2 {to{background-size: 100% 3px}}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        </style>
+        
+</head>
+<body style="background-color: #8692A6;">
+
+    <div class="main">
+        <div class="logo">
+            <img src="./assets/images/login.png" alt="">
+        </div>
+        
+        <div class="form">
+          <div class="inputs">
+            <h1>Account Login</h1>
+            <p>If you are already a member you can login with your email address and password..</p>
+          
+            <div class="container">
+                <div class="one">
+                    <label class="first">Email Address</label>
+                    <div>
+                       <input type="text">
+                    </div>
+                </div>
+                <div class="one">
+                    <label class="second">Password</label>
+                    <div>
+                       <input type="password">
+                       
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn" id="loginbtn">Login</button>
+            <p class="Suggest">Don't Have An Account!<a href="./signup/signup.html">Signup</a></p>
+            <a href="#" id="fpass">Forgot Password</a>
+           
+            
+          </div>
+         
+        </div>
+    </div>
+    <div class="loader"></div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="app.js" type="module"></script>
+    <script src="../firebase.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anek Devanagari", sans-serif;
+}
+body{
+   background: linear-gradient(to right, #8692A6 , #7f8c8d);
+   overflow-x: hidden;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar{
+    width: 1280px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: #002B49;
+}
+.imageWrapper{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageWrapper > img{
+    object-fit: contain;
+    width: 80px;
+}
+.content{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;top: 10px;left:100px;
+    font-size: 20px;
+    color: #8692A6;
+}
+.searchbar{
+    width: 300px;
+    height: 100px;
+    margin: -100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar > input{
+    width: 340px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #8692A6;
+    color: #8692A6;
+    padding-top:5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.searchbar > i{
+    position: relative;left: -40px;
+    color: #000;
+    font-size: 20px;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;top: 36px;left: 1000px;
+}
+.btn > button{
+    width: 120px;
+    height: 35px;
+    border: 1px solid #8692A6;
+    outline: none;
+    background-color: #8692A6;
+    color: #002B49;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.9s;
+}
+button:hover{
+    transform:  scale(1.1);
+    transition: 0.9s;
+}
+table{
+    width: 900px;
+    border: 3px solid #002B49;
+    margin:50px auto;
+    text-align: center;
+    color: #000;
+}
+tr{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+.infoTable > h1{
+    text-align: center;
+    font-size: 50px;
+   
+}
+.loader{
+    margin: 50px auto;
+}
+.loader {
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #2C73EB;
+    --_m: 
+      conic-gradient(#0000 10%,#000),
+      linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    -webkit-mask-composite: source-out;
+            mask-composite: subtract;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {to{transform: rotate(1turn)}}
+.userth{
+     width: 150px;
+  }
+.useremail{
+     width: 260px;
+  }
+.userdob{
+     width: 150px;
+  }
+
+.editbtn{
+ border: none;
+}
+.editbtn > button{
+    width: 150px;
+    border: 1px solid #8692A6;
+    outline: none;
+    background-color: #002B49;
+    color: #8692A6;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.9s;
+}
+.delbtn{
+    border: none;
+}
+.delbtn > button{
+    width: 150px;
+    border: 1px solid #8692A6;
+    outline: none;
+    background-color: #002B49;
+    color: #8692A6;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.9s;
+}
+/* HTML: <div class="loader"></div> */
+.loader2 {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    background: radial-gradient(circle closest-side,#000 94%,#0000) right/calc(200% - 1em) 100%;
+    animation: l24 1s infinite alternate linear;
+  }
+  .loader2::before {
+    content: "Data Not Found";
+    line-height: 1em;
+    color: #0000;
+    background: inherit;
+    background-image: radial-gradient(circle closest-side,#fff 94%,#000);
+    -webkit-background-clip:text;
+            background-clip:text;
+  }
+  
+  @keyframes l24{
+    100%{background-position: left}
+  }
+  .loader2{
+    margin: 50px auto;
+}
+.inputs{
+    position: relative;left: 250px;
+}
+.inputs >input{
+    width: 250px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #002B49;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+}

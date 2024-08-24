@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        </style>
+        
+</head>
+<body style="background-color: #8692A6;" class="body">
+
+    <div class="main">
+        <div class="logo">
+            <img src="../assets/images/Signup.png" alt="">
+        </div>
+        
+        <div class="form">
+          <div class="inputs">
+            <h1>Account Signup</h1>
+            <p>Become a member and enjoy  exclusive <br> promotions.</p>
+          
+            <div class="one">
+                <label class="first">Full Name</label>
+                <div>
+                   <input type="text">
+                </div>
+            </div>
+            <div class="one">
+                <label class="second">Email</label>
+                <div>
+                   <input type="email">
+                </div>
+            </div>
+            <div class="one">
+                <label class="third">Password</label>
+                <div>
+                   <input type="password">
+                </div>
+            </div>
+            <div class="one">
+                <label class="last">Date Of Birth</label>
+                <div>
+                   <input type="text">
+                </div>
+            </div>
+            <button class="btn" id="btn">Signup</button>
+            <p class="Suggest">Already Have An Account?<a href="../index.html">Login</a></p>
+           
+            
+          </div>
+         
+        </div>
+    </div>
+    <div class="loader"></div>
+    <div class="loader2"></div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="signup.js" type="module"></script>
+    <script src="../firebase.js" type="module"></script>
+</body>
+</html>
